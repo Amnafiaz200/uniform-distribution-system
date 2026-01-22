@@ -1,0 +1,21 @@
+-- Verify each report manually in SQL
+-- Uniforms Issued
+SELECT Staff.Name, Uniform_Items.Item_Type, Uniform_Issues.Quantity_Issued, Uniform_Issues.Issue_Date
+FROM Staff
+JOIN Uniform_Issues ON Staff.Staff_ID = Uniform_Issues.Staff_ID
+JOIN Uniform_Items ON Uniform_Issues.Item_ID = Uniform_Items.Item_ID;
+
+-- Reissue Eligibility (24 months ago)
+SELECT Staff.Name, Uniform_Items.Item_Type, Uniform_Issues.Issue_Date
+FROM Staff
+JOIN Uniform_Issues ON Staff.Staff_ID = Uniform_Issues.Staff_ID
+JOIN Uniform_Items ON Uniform_Issues.Item_ID = Uniform_Items.Item_ID
+WHERE Uniform_Issues.Issue_Date <= DATE('now', '-24 months')
+AND Uniform_Issues.Reissue_Eligible = 1;
+
+-- Additional Orders
+SELECT Staff.Name, Uniform_Items.Item_Type, Additional_Uniform_Orders.Quantity_Ordered, 
+       Additional_Uniform_Orders.Order_Date, Additional_Uniform_Orders.Paid_Amount
+FROM Staff
+JOIN Additional_Uniform_Orders ON Staff.Staff_ID = Additional_Uniform_Orders.Staff_ID
+JOIN Uniform_Items ON Additional_Uniform_Orders.Item_ID = Uniform_Items.Item_ID;
