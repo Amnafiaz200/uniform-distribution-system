@@ -1,9 +1,9 @@
 # Uniform Distribution System
-
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5e025a72-2e74-4d3b-96c5-dd8efdeb9914" width="45%">
-  <img src="https://github.com/user-attachments/assets/56e62344-d5b7-4d73-abff-4bf970f9c292" width="45%">
+  <img src="https://github.com/user-attachments/assets/5e025a72-2e74-4d3b-96c5-dd8efdeb9914" width="45%" />
+  <img src="https://github.com/user-attachments/assets/56e62344-d5b7-4d73-abff-4bf970f9c292" width="45%" />
 </p>
+
 
 ## Overview
 The **Uniform Distribution System** is a Python-based application developed for managing the distribution of uniforms to staff in an **NHS Trust**. The system allows for:
