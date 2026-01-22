@@ -1,8 +1,9 @@
 # Uniform Distribution System
-![WhatsApp Image 2026-01-22 at 7 50 13 PM](https://github.com/user-attachments/assets/d2846f51-e31e-4f99-ab2a-7a8fc1cfc0a9)
-![WhatsApp Image 2026-01-22 at 7 50 35 PM](https://github.com/user-attachments/assets/56e62344-d5b7-4d73-abff-4bf970f9c292)
 
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5e025a72-2e74-4d3b-96c5-dd8efdeb9914" width="45%">
+  <img src="https://github.com/user-attachments/assets/56e62344-d5b7-4d73-abff-4bf970f9c292" width="45%">
+</p>
 
 ## Overview
 The **Uniform Distribution System** is a Python-based application developed for managing the distribution of uniforms to staff in an **NHS Trust**. The system allows for:
@@ -27,4 +28,4 @@ The **Uniform Distribution System** is a Python-based application developed for 
 ## Installation
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/uniform-distribution-system.git
+  git clone https://github.com/Amnafiaz200/uniform-distribution-system.git
